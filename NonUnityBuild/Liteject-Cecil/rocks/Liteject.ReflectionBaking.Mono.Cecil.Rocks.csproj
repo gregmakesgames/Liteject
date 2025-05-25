@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\Mono.Cecil.settings" />
+  <PropertyGroup>
+    <ProjectGuid>{FBC6DD59-D09D-499C-B03C-99C1C78FF2AC}</ProjectGuid>
+    <RootNamespace>Liteject.ReflectionBaking.Mono.Cecil.Rocks</RootNamespace>
+    <AssemblyName>Liteject.ReflectionBaking.Mono.Cecil.Rocks</AssemblyName>
+    <DefineConstants>$(DefineConstants);INSIDE_ROCKS</DefineConstants>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_2_0_Debug'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_2_0_Release'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_3_5_Debug'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_3_5_Release'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_4_0_Debug'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_4_0_Release'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_4_5_Debug'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'net_4_5_Release'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'silverlight_Debug'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'silverlight_Release'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'winphone_Debug'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'winphone_Release'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\ProjectInfo.cs" />
+    <Compile Include="Mono.Cecil.Rocks\AssemblyInfo.cs" />
+    <Compile Include="Mono.Cecil.Rocks\MethodDefinitionRocks.cs" />
+    <Compile Include="Mono.Cecil.Rocks\SecurityDeclarationRocks.cs" />
+    <Compile Include="Mono.Cecil.Rocks\MethodBodyRocks.cs" />
+    <Compile Include="Mono.Cecil.Rocks\ILParser.cs" />
+    <Compile Include="Mono.Cecil.Rocks\TypeReferenceRocks.cs" />
+    <Compile Include="Mono.Cecil.Rocks\Functional.cs" />
+    <Compile Include="Mono.Cecil.Rocks\ModuleDefinitionRocks.cs" />
+    <Compile Include="Mono.Cecil.Rocks\TypeDefinitionRocks.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Liteject.ReflectionBaking.Mono.Cecil.csproj">
+      <Project>{D68133BD-1E63-496E-9EDE-4FBDBF77B486}</Project>
+      <Name>Liteject.ReflectionBaking.Mono.Cecil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

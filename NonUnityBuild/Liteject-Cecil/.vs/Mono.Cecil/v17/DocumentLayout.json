@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A47B1F49-A81A-43E8-BE6B-DD28AF2C4055}|Test\\Liteject.ReflectionBaking.Mono.Cecil.Tests.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\test\\mono.cecil.tests\\importreflectiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47B1F49-A81A-43E8-BE6B-DD28AF2C4055}|Test\\Liteject.ReflectionBaking.Mono.Cecil.Tests.csproj|solutionrelative:test\\mono.cecil.tests\\importreflectiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8559DD7F-A16F-46D0-A05A-9139FAEBA8FD}|symbols\\mdb\\Liteject.ReflectionBaking.Mono.Cecil.Mdb.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\symbols\\mdb\\mono.cecil.mdb\\mdbwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8559DD7F-A16F-46D0-A05A-9139FAEBA8FD}|symbols\\mdb\\Liteject.ReflectionBaking.Mono.Cecil.Mdb.csproj|solutionrelative:symbols\\mdb\\mono.cecil.mdb\\mdbwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8559DD7F-A16F-46D0-A05A-9139FAEBA8FD}|symbols\\mdb\\Liteject.ReflectionBaking.Mono.Cecil.Mdb.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\symbols\\mdb\\mono.cecil.mdb\\mdbreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8559DD7F-A16F-46D0-A05A-9139FAEBA8FD}|symbols\\mdb\\Liteject.ReflectionBaking.Mono.Cecil.Mdb.csproj|solutionrelative:symbols\\mdb\\mono.cecil.mdb\\mdbreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\sentineltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\sentineltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\referencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\referencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\pointertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\pointertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\pinnedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\pinnedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\modifiers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\modifiers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\genericinstancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\genericinstancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\functionpointertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\functionpointertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil\\arraytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil\\arraytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\mono.cecil.cil\\symbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D68133BD-1E63-496E-9EDE-4FBDBF77B486}|Liteject.ReflectionBaking.Mono.Cecil.csproj|solutionrelative:mono.cecil.cil\\symbols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47B1F49-A81A-43E8-BE6B-DD28AF2C4055}|Test\\Liteject.ReflectionBaking.Mono.Cecil.Tests.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\test\\mono.cecil.tests\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47B1F49-A81A-43E8-BE6B-DD28AF2C4055}|Test\\Liteject.ReflectionBaking.Mono.Cecil.Tests.csproj|solutionrelative:test\\mono.cecil.tests\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E6915C-7EA4-4D76-AB28-0D7191EEA626}|symbols\\pdb\\Liteject.ReflectionBaking.Mono.Cecil.Pdb.csproj|c:\\projects\\liteject\\liteject\\nonunitybuild\\liteject-cecil\\symbols\\pdb\\mono.cecil.pdb\\pdbwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63E6915C-7EA4-4D76-AB28-0D7191EEA626}|symbols\\pdb\\Liteject.ReflectionBaking.Mono.Cecil.Pdb.csproj|solutionrelative:symbols\\pdb\\mono.cecil.pdb\\pdbwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImportReflectionTests.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Test\\Mono.Cecil.Tests\\ImportReflectionTests.cs",
+              "RelativeDocumentMoniker": "Test\\Mono.Cecil.Tests\\ImportReflectionTests.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Test\\Mono.Cecil.Tests\\ImportReflectionTests.cs",
+              "RelativeToolTip": "Test\\Mono.Cecil.Tests\\ImportReflectionTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:18:59.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MdbWriter.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\symbols\\mdb\\Mono.Cecil.Mdb\\MdbWriter.cs",
+              "RelativeDocumentMoniker": "symbols\\mdb\\Mono.Cecil.Mdb\\MdbWriter.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\symbols\\mdb\\Mono.Cecil.Mdb\\MdbWriter.cs",
+              "RelativeToolTip": "symbols\\mdb\\Mono.Cecil.Mdb\\MdbWriter.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:18:21.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SentinelType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\SentinelType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\SentinelType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\SentinelType.cs",
+              "RelativeToolTip": "Mono.Cecil\\SentinelType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:18:07.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReferenceType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\ReferenceType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\ReferenceType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\ReferenceType.cs",
+              "RelativeToolTip": "Mono.Cecil\\ReferenceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:18:06.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PointerType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\PointerType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\PointerType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\PointerType.cs",
+              "RelativeToolTip": "Mono.Cecil\\PointerType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:18:03.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PinnedType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\PinnedType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\PinnedType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\PinnedType.cs",
+              "RelativeToolTip": "Mono.Cecil\\PinnedType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:18:01.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Modifiers.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\Modifiers.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\Modifiers.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\Modifiers.cs",
+              "RelativeToolTip": "Mono.Cecil\\Modifiers.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAowHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:17:59.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericInstanceType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\GenericInstanceType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\GenericInstanceType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\GenericInstanceType.cs",
+              "RelativeToolTip": "Mono.Cecil\\GenericInstanceType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:17:55.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FunctionPointerType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\FunctionPointerType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\FunctionPointerType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\FunctionPointerType.cs",
+              "RelativeToolTip": "Mono.Cecil\\FunctionPointerType.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:17:53.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ArrayType.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\ArrayType.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil\\ArrayType.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil\\ArrayType.cs",
+              "RelativeToolTip": "Mono.Cecil\\ArrayType.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:17:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MdbReader.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\symbols\\mdb\\Mono.Cecil.Mdb\\MdbReader.cs",
+              "RelativeDocumentMoniker": "symbols\\mdb\\Mono.Cecil.Mdb\\MdbReader.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\symbols\\mdb\\Mono.Cecil.Mdb\\MdbReader.cs",
+              "RelativeToolTip": "symbols\\mdb\\Mono.Cecil.Mdb\\MdbReader.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAhwOEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:14:27.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Symbols.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil.Cil\\Symbols.cs",
+              "RelativeDocumentMoniker": "Mono.Cecil.Cil\\Symbols.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Mono.Cecil.Cil\\Symbols.cs",
+              "RelativeToolTip": "Mono.Cecil.Cil\\Symbols.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:14:47.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Test\\Mono.Cecil.Tests\\Extensions.cs",
+              "RelativeDocumentMoniker": "Test\\Mono.Cecil.Tests\\Extensions.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\Test\\Mono.Cecil.Tests\\Extensions.cs",
+              "RelativeToolTip": "Test\\Mono.Cecil.Tests\\Extensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:16:45.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PdbWriter.cs",
+              "DocumentMoniker": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\symbols\\pdb\\Mono.Cecil.Pdb\\PdbWriter.cs",
+              "RelativeDocumentMoniker": "symbols\\pdb\\Mono.Cecil.Pdb\\PdbWriter.cs",
+              "ToolTip": "C:\\Projects\\Liteject\\Liteject\\NonUnityBuild\\Liteject-Cecil\\symbols\\pdb\\Mono.Cecil.Pdb\\PdbWriter.cs",
+              "RelativeToolTip": "symbols\\pdb\\Mono.Cecil.Pdb\\PdbWriter.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAMwKIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:16:42.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
