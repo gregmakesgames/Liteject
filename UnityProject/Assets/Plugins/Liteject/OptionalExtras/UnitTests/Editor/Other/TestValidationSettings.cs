@@ -30,7 +30,7 @@ namespace Liteject.Tests
         [Test]
         public void TestValidationErrorThrows()
         {
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
 
             Container.Bind<Bar>().AsSingle().NonLazy();
 
@@ -40,7 +40,7 @@ namespace Liteject.Tests
         [Test]
         public void TestOutsideObjectGraph1()
         {
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
 
             Container.Bind<Bar>().AsSingle();
 
@@ -50,7 +50,7 @@ namespace Liteject.Tests
         [Test]
         public void TestOutsideObjectGraph2()
         {
-            Container.Settings = new ZenjectSettings(
+            Container.Settings = new LitejectSettings(
                 ValidationErrorResponses.Throw, RootResolveMethods.All);
 
             Container.Bind<Bar>().AsSingle();

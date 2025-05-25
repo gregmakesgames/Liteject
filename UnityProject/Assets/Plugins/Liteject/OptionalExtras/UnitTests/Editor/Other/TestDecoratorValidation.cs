@@ -43,7 +43,7 @@ namespace Liteject.Tests.Other
         public void Setup()
         {
             Container = new DiContainer(true);
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
         }
 
         public class Foo

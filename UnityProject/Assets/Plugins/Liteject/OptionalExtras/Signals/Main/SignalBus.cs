@@ -14,7 +14,7 @@ namespace Liteject
         readonly Dictionary<BindingId, SignalDeclaration> _localDeclarationMap = new Dictionary<BindingId, SignalDeclaration>();
         readonly SignalBus _parentBus;
         readonly Dictionary<SignalSubscriptionId, SignalSubscription> _subscriptionMap = new Dictionary<SignalSubscriptionId, SignalSubscription>();
-        readonly ZenjectSettings.SignalSettings _settings;
+        readonly LitejectSettings.SignalSettings _settings;
         readonly SignalDeclaration.Factory _signalDeclarationFactory;
         readonly DiContainer _container;
 
@@ -25,14 +25,14 @@ namespace Liteject
             [Inject(Source = InjectSources.Parent, Optional = true)]
             SignalBus parentBus,
             [InjectOptional]
-            ZenjectSettings zenjectSettings,
+            LitejectSettings litejectSettings,
             SignalSubscription.Pool subscriptionPool,
             SignalDeclaration.Factory signalDeclarationFactory,
             DiContainer container)
         {
             _subscriptionPool = subscriptionPool;
-            zenjectSettings = zenjectSettings ?? ZenjectSettings.Default;
-            _settings = zenjectSettings.Signals ?? ZenjectSettings.SignalSettings.Default;
+            litejectSettings = litejectSettings ?? LitejectSettings.Default;
+            _settings = litejectSettings.Signals ?? LitejectSettings.SignalSettings.Default;
             _signalDeclarationFactory = signalDeclarationFactory;
             _container = container;
 

@@ -45,7 +45,7 @@ namespace Liteject
         bool _hasExplicitDefaultParent;
 #endif
 
-        ZenjectSettings _settings;
+        LitejectSettings _settings;
 
         bool _hasResolvedRoots;
         bool _isFinalizingBinding;
@@ -66,7 +66,7 @@ namespace Liteject
             FlushBindings();
             Assert.That(_currentBindings.Count == 0);
 
-            _settings = ZenjectSettings.Default;
+            _settings = LitejectSettings.Default;
 
             var selfLookup = new[] { this };
             _containerLookups[(int)InjectSources.Local] = selfLookup;
@@ -108,7 +108,7 @@ namespace Liteject
             }
 
             // Assumed to be configured in a parent container
-            var settings = TryResolve<ZenjectSettings>();
+            var settings = TryResolve<LitejectSettings>();
 
             if (settings != null)
             {
@@ -145,13 +145,13 @@ namespace Liteject
         // set explicitly here as well which is useful in particular in unit tests
         // Note however that if you want child containers to use this same value you have
         // to bind it as well
-        public ZenjectSettings Settings
+        public LitejectSettings Settings
         {
             get { return _settings; }
             set
             {
                 _settings = value;
-                Rebind<ZenjectSettings>().FromInstance(value);
+                Rebind<LitejectSettings>().FromInstance(value);
             }
         }
 

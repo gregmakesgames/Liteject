@@ -11,7 +11,7 @@ namespace Liteject
     public class ProjectKernel : MonoKernel
     {
         [Inject]
-        ZenjectSettings _settings = null;
+        LitejectSettings _settings = null;
 
         [Inject]
         SceneContextRegistry _contextRegistry = null;

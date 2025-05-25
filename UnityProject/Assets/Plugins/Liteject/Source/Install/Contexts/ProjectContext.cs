@@ -33,7 +33,7 @@ namespace Liteject
         ReflectionBakingCoverageModes _buildsReflectionBakingCoverageMode = ReflectionBakingCoverageModes.FallbackToDirectReflection;
 
         [SerializeField]
-        ZenjectSettings _settings = ZenjectSettings.Default;
+        LitejectSettings _settings = LitejectSettings.Default;
 
         DiContainer _container;
 

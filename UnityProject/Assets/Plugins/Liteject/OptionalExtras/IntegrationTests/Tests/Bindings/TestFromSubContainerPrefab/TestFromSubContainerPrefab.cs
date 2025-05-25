@@ -29,7 +29,7 @@ namespace Liteject.Tests.Bindings
 
         void CommonInstall()
         {
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
         }
 
         [UnityTest]
@@ -250,7 +250,7 @@ namespace Liteject.Tests.Bindings
             PreInstall();
             CommonInstall();
 
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
             Container.Bind<Gorp>().FromSubContainerResolve("gorp").ByNewContextPrefab(FooPrefab).AsSingle().NonLazy();
 
             PostInstall();

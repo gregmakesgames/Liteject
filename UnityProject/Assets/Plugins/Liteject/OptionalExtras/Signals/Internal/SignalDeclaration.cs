@@ -14,7 +14,7 @@ namespace Liteject
         readonly BindingId _bindingId;
         readonly SignalMissingHandlerResponses _missingHandlerResponses;
         readonly bool _isAsync;
-        readonly ZenjectSettings.SignalSettings _settings;
+        readonly LitejectSettings.SignalSettings _settings;
 
 #if ZEN_SIGNALS_ADD_UNIRX
         readonly Subject<object> _stream = new Subject<object>();
@@ -24,10 +24,10 @@ namespace Liteject
         public SignalDeclaration(
             SignalDeclarationBindInfo bindInfo,
             [InjectOptional]
-            ZenjectSettings zenjectSettings)
+            LitejectSettings litejectSettings)
         {
-            zenjectSettings = zenjectSettings ?? ZenjectSettings.Default;
-            _settings = zenjectSettings.Signals ?? ZenjectSettings.SignalSettings.Default;
+            litejectSettings = litejectSettings ?? LitejectSettings.Default;
+            _settings = litejectSettings.Signals ?? LitejectSettings.SignalSettings.Default;
 
             _bindingId = new BindingId(bindInfo.SignalType, bindInfo.Identifier);
             _missingHandlerResponses = bindInfo.MissingHandlerResponse;

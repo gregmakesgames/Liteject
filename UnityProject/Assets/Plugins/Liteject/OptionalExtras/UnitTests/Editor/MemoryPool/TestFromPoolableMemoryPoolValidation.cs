@@ -55,7 +55,7 @@ namespace Liteject.Tests.Bindings
         public void TestFailure()
         {
             var container = new DiContainer(true);
-            container.Settings = new ZenjectSettings(
+            container.Settings = new LitejectSettings(
                 ValidationErrorResponses.Throw, RootResolveMethods.All);
 
             container.BindFactory<Foo, Foo.Factory>().FromPoolableMemoryPool(x => x.WithInitialSize(2));
@@ -68,7 +68,7 @@ namespace Liteject.Tests.Bindings
         public void TestSuccess()
         {
             var container = new DiContainer(true);
-            container.Settings = new ZenjectSettings(
+            container.Settings = new LitejectSettings(
                 ValidationErrorResponses.Throw, RootResolveMethods.All);
 
             container.Bind<Bar>().AsSingle();

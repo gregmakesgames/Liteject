@@ -14,7 +14,7 @@ namespace Liteject.Tests.Bindings
 
         void CommonInstall()
         {
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
         }
 
         [UnityTest]

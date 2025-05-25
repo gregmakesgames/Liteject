@@ -15,7 +15,7 @@ namespace Liteject.Tests
         public void Setup()
         {
             Container = new DiContainer(true);
-            Container.Settings = new ZenjectSettings(
+            Container.Settings = new LitejectSettings(
                 ValidationErrorResponses.Throw, RootResolveMethods.All);
         }
 

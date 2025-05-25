@@ -48,7 +48,7 @@ namespace Liteject.Tests.Bindings
         {
             PreInstall();
 
-            Container.Settings = new ZenjectSettings(ValidationErrorResponses.Throw);
+            Container.Settings = new LitejectSettings(ValidationErrorResponses.Throw);
             Container.Bind<Foo>().AsSingle().NonLazy();
 
             Assert.Throws(() => PostInstall());

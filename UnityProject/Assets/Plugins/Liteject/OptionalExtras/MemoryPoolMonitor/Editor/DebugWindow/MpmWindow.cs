@@ -2,7 +2,6 @@ using System;
 using Liteject;
 using UnityEngine;
 using UnityEditor;
-using Liteject;
 
 namespace Liteject.MemoryPoolMonitor
 {

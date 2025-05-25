@@ -33,9 +33,9 @@ namespace Liteject
     [Serializable]
     [ZenjectAllowDuringValidation]
     [NoReflectionBaking]
-    public class ZenjectSettings
+    public class LitejectSettings
     {
-        public static ZenjectSettings Default = new ZenjectSettings();
+        public static LitejectSettings Default = new LitejectSettings();
 
 #if !NOT_UNITY3D
         [SerializeField]
@@ -67,7 +67,7 @@ namespace Liteject
 #endif
         SignalSettings _signalSettings;
 
-        public ZenjectSettings(
+        public LitejectSettings(
             ValidationErrorResponses validationErrorResponse,
             RootResolveMethods validationRootResolveMethod = RootResolveMethods.NonLazyOnly,
             bool displayWarningWhenResolvingDuringInstall = true,
@@ -85,7 +85,7 @@ namespace Liteject
 
         // Need to define an emtpy constructor since this is created by unity serialization
         // even if the above constructor has defaults for all
-        public ZenjectSettings()
+        public LitejectSettings()
             : this(ValidationErrorResponses.Log)
         {
         }

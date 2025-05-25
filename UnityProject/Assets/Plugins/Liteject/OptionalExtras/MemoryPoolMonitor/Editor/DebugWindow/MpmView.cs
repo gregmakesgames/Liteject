@@ -5,7 +5,6 @@ using Liteject;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.Profiling;
-using Liteject;
 using Liteject.Internal;
 
 namespace Liteject.MemoryPoolMonitor
